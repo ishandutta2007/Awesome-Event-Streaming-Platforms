@@ -6,11 +6,14 @@
 
 **The Definitive Curated Directory of Distributed Logs, Pub/Sub Brokers, Stream Processing Engines & Real-Time Event Infrastructure**
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![Tracked Projects](https://img.shields.io/badge/Tracked%20Platforms-27%2B-blueviolet.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Event-Streaming-Platforms)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Event-Streaming-Platforms#contributing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue.svg?style=flat-square)](#)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 *Explore the leading SaaS managed services and open-source distributed streaming systems powering modern real-time architectures, event-driven microservices, CDC (Change Data Capture), and AI/ML data ingestion pipelines.*
 
@@ -25,6 +28,8 @@
 - [💻 Open-Source Streaming Projects](#-open-source-streaming-projects)
 - [🧭 Platform Selection & Architecture Guide](#-platform-selection--architecture-guide)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [⭐ Star History](#-star-history)
 - [📜 Disclaimer](#-disclaimer)
 
 ---
@@ -208,6 +213,33 @@ We welcome additions, corrections, and benchmark improvements from the real-time
    - For **Open-Source**: Provide the GitHub repo, description, key strengths, and an official `img.shields.io` star badge linking to the `/stargazers` page.
 4. 🧪 **Verify markdown rendering, links, and table formatting**.
 5. 🚀 **Submit a Pull Request** with a concise description of why the project belongs in the ecosystem guide.
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring and utilizing the **Awesome Event Streaming Platforms** directory! Maintaining, benchmarking, and curating this guide requires continuous effort and research across the rapidly evolving distributed streaming and real-time data ecosystem.
+
+If you find this resource helpful for your work, team, or personal projects, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve visibility and help other data engineers discover it.
+- 🍴 **Fork the project** and contribute additions, corrections, or benchmarks.
+- 📢 **Share it** on LinkedIn, X/Twitter, Reddit, Discord, or with your engineering team.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing open-source maintenance, you can contribute via the GitHub Sponsors Dashboard below:
+
+<div align="center">
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Ishan Dutta" /></a>
+
+*Every bit of support fuels more comprehensive benchmarks, deeper architecture guides, and timely ecosystem updates!*
+
+</div>
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Event-Streaming-Platforms&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Event-Streaming-Platforms&type=date&legend=top-left)
 
 ---
 
