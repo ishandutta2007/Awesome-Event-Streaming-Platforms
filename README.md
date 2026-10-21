@@ -63,105 +63,105 @@ The following table benchmarks the top commercially managed SaaS event streaming
 
 ## 💻 Open-Source Streaming Projects
 
-Curated collection of production-grade open-source distributed event streaming engines, stream processors, and message brokers. **Sorted strictly descending by GitHub star counts.**
+Curated collection of production-grade open-source distributed event streaming engines, stream processors, and message brokers. **Sorted strictly descending by GitHub Stars_Counts.**
 
-### 1. 🥇 [Apache Kafka](https://github.com/apache/kafka) [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
+### 1. 🥇 [Apache Kafka](https://github.com/apache/kafka) [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java / Scala
 * **Description**: The industry-standard distributed event streaming platform. Provides high-throughput, fault-tolerant, horizontally scalable append-only log architecture.
 * **Core Strengths**: Deepest global ecosystem (Kafka Connect, Kafka Streams, ksqlDB), thousands of production battle tests, native KRaft consensus mode (eliminating external ZooKeeper dependencies), and exactly-once processing (EOS) semantics.
 * **Ideal For**: Enterprise mission-critical event backbones, CDC pipelines, and core microservice asynchronous event buses.
 
-### 2. 🥈 [Apache Flink](https://github.com/apache/flink) [![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)
+### 2. 🥈 [Apache Flink](https://github.com/apache/flink) [![GitHub_Stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java / Scala
 * **Description**: Distributed processing engine for stateful stream processing over unbounded and bounded data streams.
 * **Core Strengths**: True event-driven stream processing with sub-second latencies, stateful stream computations with checkpointing (Chandy-Lamport variant), expressive event-time windowing semantics, and native streaming SQL.
 * **Ideal For**: Real-time fraud detection, continuous ML feature generation, stream joins, and real-time operational telemetry.
 
-### 3. 🥉 [Apache RocketMQ](https://github.com/apache/rocketmq) [![GitHub stars](https://img.shields.io/github/stars/apache/rocketmq?style=social&color=white)](https://github.com/apache/rocketmq/stargazers)
+### 3. 🥉 [Apache RocketMQ](https://github.com/apache/rocketmq) [![GitHub_Stars](https://img.shields.io/github/stars/apache/rocketmq?style=social&color=white)](https://github.com/apache/rocketmq/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java
 * **Description**: Financial-grade distributed messaging and streaming platform designed for ultra-high throughput and predictable low latency.
 * **Core Strengths**: Native 2-phase commit distributed transactions, scheduled/delay messaging, billions-level message accumulation without performance degradation, and lightweight architectural overhead.
 * **Ideal For**: E-commerce order pipelines, fintech transactional messaging, and large-scale asynchronous decoupling.
 
-### 4. ⚡ [NATS Server](https://github.com/nats-io/nats-server) [![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)
+### 4. ⚡ [NATS Server](https://github.com/nats-io/nats-server) [![GitHub_Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Go
 * **Description**: Cloud-native, high-performance pub/sub messaging system with minimal resource footprints.
 * **Core Strengths**: Includes **JetStream** persistence layer for durable message streams, consumer deduplication, key-value and object stores, sub-millisecond dispatching, and zero-configuration clustering across multi-cloud/edge topologies.
 * **Ideal For**: Cloud-native Kubernetes microservices, edge computing, distributed RPC, and real-time telemetry streaming.
 
-### 5. 🌐 [EMQX](https://github.com/emqx/emqx) [![GitHub stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)
+### 5. 🌐 [EMQX](https://github.com/emqx/emqx) [![GitHub_Stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Erlang
 * **Description**: Massive-scale distributed MQTT 5.0 broker and real-time streaming engine for IoT and connected mobility.
 * **Core Strengths**: Scales to 100M+ concurrent MQTT connections per cluster, sub-millisecond message routing, built-in SQL-based data manipulation rules engine, and out-of-the-box data bridges to Kafka, Pulsar, and time-series databases.
 * **Ideal For**: Connected vehicles (V2X), smart energy grids, industrial automation, and large-scale IoT fleets.
 
-### 6. 🌊 [Apache Pulsar](https://github.com/apache/pulsar) [![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)
+### 6. 🌊 [Apache Pulsar](https://github.com/apache/pulsar) [![GitHub_Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java
 * **Description**: Next-generation distributed pub-sub messaging and streaming platform built on a disaggregated compute-and-storage architecture.
 * **Core Strengths**: Separates stateless brokers from stateful bookies (Apache BookKeeper), enabling instant node scale-out, seamless multi-tenancy, cross-datacenter geo-replication, and automated tiered storage offloading to S3/GCS.
 * **Ideal For**: Enterprise multi-tenant streaming infrastructure, unified queuing + streaming, and cold storage log retention.
 
-### 7. 🐇 [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) [![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)
+### 7. 🐇 [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) [![GitHub_Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)
 * **License**: MPL-2.0 | **Primary Language**: Erlang
 * **Description**: The world's most widely deployed traditional message broker, supporting AMQP 0-9-1, AMQP 1.0, MQTT, and STOMP.
 * **Core Strengths**: Flexible routing algorithms (direct, topic, fanout, headers), reliable delivery guarantees, extensive management UI, and **RabbitMQ Streams** (high-throughput append-only log streaming).
 * **Ideal For**: Complex routing topologies, task worker queues, enterprise microservices, and mixed message-queue + streaming workloads.
 
-### 8. 🐼 [Redpanda](https://github.com/redpanda-data/redpanda) [![GitHub stars](https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white)](https://github.com/redpanda-data/redpanda/stargazers)
+### 8. 🐼 [Redpanda](https://github.com/redpanda-data/redpanda) [![GitHub_Stars](https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white)](https://github.com/redpanda-data/redpanda/stargazers)
 * **License**: BSL-1.1 (Community Edition Free) | **Primary Language**: C++
 * **Description**: Modern Kafka API-compatible streaming platform engineered in C++ with a thread-per-core, shared-nothing Seastar architecture.
 * **Core Strengths**: 100% native Kafka wire protocol compatibility without JVM overhead, zero ZooKeeper/KRaft cluster dependencies, 10x faster tail latencies, up to 3x compute cost savings, and built-in Wasm data transformations.
 * **Ideal For**: High-throughput, ultra-low latency streaming, edge deployments, and dropping in as a painless Kafka replacement.
 
-### 9. 🦟 [Eclipse Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) [![GitHub stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto?style=social&color=white)](https://github.com/eclipse-mosquitto/mosquitto/stargazers)
+### 9. 🦟 [Eclipse Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto?style=social&color=white)](https://github.com/eclipse-mosquitto/mosquitto/stargazers)
 * **License**: EPL-2.0 / EDL-1.0 | **Primary Language**: C
 * **Description**: Ultra-compact, fast open-source message broker implementing MQTT protocols 5.0, 3.1.1, and 3.1.
 * **Core Strengths**: Negligible RAM footprint (~few megabytes), native C efficiency, wide platform portability, TLS/SSL authentication, and bridge connections to upstream enterprise brokers.
 * **Ideal For**: Embedded single-board computers (Raspberry Pi), smart home hubs, edge gateways, and resource-constrained environments.
 
-### 10. ☁️ [AutoMQ](https://github.com/AutoMQ/automq) [![GitHub stars](https://img.shields.io/github/stars/AutoMQ/automq?style=social&color=white)](https://github.com/AutoMQ/automq/stargazers)
+### 10. ☁️ [AutoMQ](https://github.com/AutoMQ/automq) [![GitHub_Stars](https://img.shields.io/github/stars/AutoMQ/automq?style=social&color=white)](https://github.com/AutoMQ/automq/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java
 * **Description**: Cloud-first, truly serverless Kafka alternative redesigned from the ground up on object storage (AWS S3, GCP Cloud Storage, Azure Blob).
 * **Core Strengths**: 100% Kafka wire compatibility with zero local disks, single-digit millisecond latency backed by EBS WAL, auto-scaling brokers in seconds, and up to 10x infrastructure cost savings.
 * **Ideal For**: Cloud-native Kafka deployments seeking to eliminate disk rebalancing, partition management, and provisioned storage costs.
 
-### 11. 📈 [RisingWave](https://github.com/risingwavelabs/risingwave) [![GitHub stars](https://img.shields.io/github/stars/risingwavelabs/risingwave?style=social&color=white)](https://github.com/risingwavelabs/risingwave/stargazers)
+### 11. 📈 [RisingWave](https://github.com/risingwavelabs/risingwave) [![GitHub_Stars](https://img.shields.io/github/stars/risingwavelabs/risingwave?style=social&color=white)](https://github.com/risingwavelabs/risingwave/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Rust
 * **Description**: Distributed streaming SQL database designed for real-time stream processing, continuous materialized views, and sub-second analytical serving.
 * **Core Strengths**: Native PostgreSQL wire protocol compatibility, real-time ingestion from Kafka/Pulsar/Kinesis, cascading incremental computations, and disaggregated compute-storage architecture.
 * **Ideal For**: Real-time dashboards, dynamic pricing calculation, continuous metric aggregation, and streaming ETL without managing complex Flink jobs.
 
-### 12. ⚡ [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) [![GitHub stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh/stargazers)
+### 12. ⚡ [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh/stargazers)
 * **License**: EPL-2.0 / Apache-2.0 | **Primary Language**: Rust
 * **Description**: High-performance, zero-overhead pub/sub/query protocol unifying data in motion, data in use, and data at rest across edge-to-cloud continuums.
 * **Core Strengths**: Minimal wire protocol overhead (down to 4-5 bytes per packet), native peer-to-peer and brokered topologies, and automated bridging into ROS 2, MQTT, DDS, and Kafka.
 * **Ideal For**: Robotics, autonomous driving, connected vehicles, and WAN-spanning edge-to-cloud data meshes.
 
-### 13. 🌊 [Numaflow](https://github.com/numaproj/numaflow) [![GitHub stars](https://img.shields.io/github/stars/numaproj/numaflow?style=social&color=white)](https://github.com/numaproj/numaflow/stargazers)
+### 13. 🌊 [Numaflow](https://github.com/numaproj/numaflow) [![GitHub_Stars](https://img.shields.io/github/stars/numaproj/numaflow?style=social&color=white)](https://github.com/numaproj/numaflow/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Go
 * **Description**: Kubernetes-native, language-agnostic stream processing and event-driven computing engine.
 * **Core Strengths**: Native Kubernetes CRDs (Custom Resource Definitions), backpressure-driven auto-scaling of pods to zero, and polyglot user-defined functions (Python, Go, Java, Rust, C++).
 * **Ideal For**: Kubernetes-native stream workflows, real-time ML inference, and modular event transformation graphs.
 
-### 14. 🏛️ [Apache ActiveMQ](https://github.com/apache/activemq) [![GitHub stars](https://img.shields.io/github/stars/apache/activemq?style=social&color=white)](https://github.com/apache/activemq/stargazers)
+### 14. 🏛️ [Apache ActiveMQ](https://github.com/apache/activemq) [![GitHub_Stars](https://img.shields.io/github/stars/apache/activemq?style=social&color=white)](https://github.com/apache/activemq/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java
 * **Description**: The classic, battle-hardened open-source multi-protocol message broker and JMS implementation.
 * **Core Strengths**: Full JMS 1.1 and JMS 2.0 compliance, support for AMQP, STOMP, MQTT, and OpenWire protocols, alongside the modern non-blocking ActiveMQ Artemis engine.
 * **Ideal For**: Enterprise Java EE application migration, legacy ESB integration, and enterprise banking/insurance messaging.
 
-### 15. ⏱️ [Timeplus Proton](https://github.com/timeplus-io/proton) [![GitHub stars](https://img.shields.io/github/stars/timeplus-io/proton?style=social&color=white)](https://github.com/timeplus-io/proton/stargazers)
+### 15. ⏱️ [Timeplus Proton](https://github.com/timeplus-io/proton) [![GitHub_Stars](https://img.shields.io/github/stars/timeplus-io/proton?style=social&color=white)](https://github.com/timeplus-io/proton/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: C++
 * **Description**: Fast, lightweight streaming SQL engine built on ClickHouse core, combining real-time streaming queries with historical table lookups.
 * **Core Strengths**: Single static binary deployment, sub-millisecond query evaluation, streaming aggregations, and unified SQL syntax for both historical and in-flight Kafka data.
 * **Ideal For**: Real-time log analytics, edge stream processing, alerting rules, and observability pipelines.
 
-### 16. 🐍 [Bytewax](https://github.com/bytewax/bytewax) [![GitHub stars](https://img.shields.io/github/stars/bytewax/bytewax?style=social&color=white)](https://github.com/bytewax/bytewax/stargazers)
+### 16. 🐍 [Bytewax](https://github.com/bytewax/bytewax) [![GitHub_Stars](https://img.shields.io/github/stars/bytewax/bytewax?style=social&color=white)](https://github.com/bytewax/bytewax/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Rust / Python
 * **Description**: Stateful stream processing framework for Python, powered by the Timely Dataflow distributed execution engine written in Rust.
 * **Core Strengths**: Native Python ergonomics with Rust-grade parallelism and memory efficiency; simplifies writing complex stateful data transformations without Java or JVM overhead.
 * **Ideal For**: Real-time Python ML feature engineering, AI embedding pipelines, streaming anomalies, and data science workflows.
 
-### 17. 🐝 [HiveMQ Community Edition](https://github.com/hivemq/hivemq-community-edition) [![GitHub stars](https://img.shields.io/github/stars/hivemq/hivemq-community-edition?style=social&color=white)](https://github.com/hivemq/hivemq-community-edition/stargazers)
+### 17. 🐝 [HiveMQ Community Edition](https://github.com/hivemq/hivemq-community-edition) [![GitHub_Stars](https://img.shields.io/github/stars/hivemq/hivemq-community-edition?style=social&color=white)](https://github.com/hivemq/hivemq-community-edition/stargazers)
 * **License**: Apache-2.0 | **Primary Language**: Java
 * **Description**: 100% MQTT 3.x and MQTT 5.0 compliant open-source message broker core.
 * **Core Strengths**: Highly extensible plugin SDK, rock-solid conformance to OASIS MQTT standards, robust backpressure handling, and enterprise bridging pathways.
@@ -210,7 +210,7 @@ We welcome additions, corrections, and benchmark improvements from the real-time
 2. 🌿 **Create a descriptive feature branch** (`git checkout -b feature/add-new-platform`).
 3. ✍️ **Update [README.md](README.md)**:
    - For **SaaS**: Add complete pricing with specific starting tier prices and explicit free tier/trial duration and quota limits in the benchmark table.
-   - For **Open-Source**: Provide the GitHub repo, description, key strengths, and an official `img.shields.io` star badge linking to the `/stargazers` page.
+   - For **Open-Source**: Provide the GitHub repo, description, key strengths, and an official `img.shields.io` Stars_Badge linking to the `/stargazers` page.
 4. 🧪 **Verify markdown rendering, links, and table formatting**.
 5. 🚀 **Submit a Pull Request** with a concise description of why the project belongs in the ecosystem guide.
 
